@@ -1,10 +1,8 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 import {inject} from '@loopback/core';
 import {
-  Request,
-  RestBindings,
-  get,
-  response,
-  ResponseObject,
+  get, Request, response,
+  ResponseObject, RestBindings
 } from '@loopback/rest';
 
 /**

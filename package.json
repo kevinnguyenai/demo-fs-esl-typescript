@@ -14,7 +14,7 @@
     "scripts": {
         "build": "lb-tsc",
         "build:watch": "lb-tsc --watch",
-        "lint": "yarn run eslint && yarn run prettier:check",
+        "lint": "yarn run eslint ",
         "lint:fix": "yarn run eslint:fix && yarn run prettier:fix",
         "prettier:cli": "lb-prettier \"**/*.ts\" \"**/*.js\"",
         "prettier:check": "yarn run prettier:cli -l",
@@ -39,6 +39,7 @@
         "prepare": "husky install"
     },
     "repository": {
+        "author": " Kevin Nguyen <kevin.nguyen.ai@gmail.com>",
         "type": "git",
         "url": "https://github.com/kevinnguyenai/demo-fs-esl-ts.git"
     },
